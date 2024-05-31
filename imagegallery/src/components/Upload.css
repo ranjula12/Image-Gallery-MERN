@@ -1,0 +1,45 @@
+/* src/ImageUpload.css */
+
+.image-upload-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.image-upload-container form {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.image-upload-container input[type="file"] {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.image-upload-container .image-preview {
+  margin-bottom: 20px;
+}
+
+.image-upload-container .image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.image-upload-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-upload-container button:hover {
+  background-color: #45a049;
+}
